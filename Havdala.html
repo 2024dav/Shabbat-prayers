@@ -1,30 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Havdala</title>
-    <link rel="stylesheet" href="hav.css">
-    
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Architects+Daughter&family=Caveat:wght@400..700&family=Didact+Gothic&family=Gruppo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oooh+Baby&family=Rubik+Glitch+Pop&family=Sassy+Frass&family=Varela+Round&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Havdala</title>
 
+  <!-- Google fonts (only once) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Nunito:wght@300;700&display=swap" rel="stylesheet">
 
-    </head>
+  <!-- external stylesheet -->
+  <link rel="stylesheet" href="hav.css">
+</head>
+<body>
+  <main class="container">
+    <header class="top">
+      <h1>Havdala</h1>
 
-  <body>
-    
- 
-   
-        <h1 >Havdala</h1>
-        <button><a href="./index.html">home</a></button>   
-        <div class="txt">
-          
-          <p id="font">
-            
-          </p> 
-        <button><a href="index.html">back</a></button>
-  </div>
+      <!-- use anchors styled as buttons (more semantic & accessible) -->
+      <nav class="nav">
+        <a class="btn" href="./index.html">Home</a>
+        <a class="btn" href="index.html">Back</a>
+      </nav>
+    </header>
+
+    <!-- image placed below the buttons -->
+    <figure class="hero">
+      <img src="./photos/havdala.jpg" alt="Havdalah candle and wine on a saucer">
+      <figcaption class="visually-hidden">Havdalah candle and wine</figcaption>
+    </figure>
+
+    <article class="txt" id="font">
+      <ol>
+        <li>
+          <strong>Pour wine until it overflows onto the saucer — recite:</strong>
+          <p class="prayer">
+            Blessed are you Lord our God<br>
+            King of the universe<br>
+            Who creates the fruit of the vine<br>
+            Amen
+          </p>
+        </li>
+
+        <li>
+          <strong>Light the Havdallah candle</strong>
+          <div class="sub">
+            <p class="prayer"><em>(a)</em> Recite blessing:</p>
+            <p class="prayer">
+              Blessed are you Lord our God<br>
+              King of the universe<br>
+              Who creates the light of fire<br>
+              Amen
+            </p>
+
+            <p class="prayer"><em>(b)</em> Recite Isaiah 12:2–3:</p>
+            <p class="prayer">
+              Surely God is my salvation,<br>
+              I will trust and not be afraid.<br>
+              The Lord, the Lord is my strength and my song,<br>
+              He has become my salvation.<br><br>
+
+              With joy I will draw waters<br>
+              From the wells of salvation.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <strong>Blessing over the wine again</strong>
+          <p class="prayer">
+            Blessed are you Lord our God,<br>
+            King of the Universe,<br>
+            Who creates the fruit of the vine<br>
+            Amen
+          </p>
+          <p>The cup is passed around so that every person drinks from it.</p>
+        </li>
+
+        <li>
+          <strong>Blessing over the b’samim (spice box)</strong>
+          <p class="prayer">
+            Blessed are you Lord our God,<br>
+            King of the Universe,<br>
+            Who creates the variety of spices<br>
+            Amen
+          </p>
+          <p>The spice box is passed around for everybody to smell.</p>
+        </li>
+
+        <li>
+          <strong>Extinguish the candle in the overflow and recite the blessing for distinction</strong>
+          <p class="prayer">
+            Blessed are you Lord our God,<br>
+            King of the Universe,<br>
+            Who creates the distinction between the sacred and the secular,<br>
+            Between light and dark, between Israel and other nations,<br>
+            Between the seventh and the six days of labour.<br>
+            Blessed are you Adonai<br>
+            Who distinguishes between the sacred and the secular<br>
+            Amen
+          </p>
+        </li>
+      </ol>
+    </article>
+  </main>
 </body>
 </html>
